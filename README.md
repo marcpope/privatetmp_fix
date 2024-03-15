@@ -1,5 +1,5 @@
 # privatetmp_fix
-How to fix Apache's PrivateTmp=True override everytime httpd updates.
+How to fix Apache's PrivateTmp=True override everytime httpd updates. If you are running Lasso 8.6 on CentOS 7 or higher, this is neccessary to make [file_uploads] work properly.
 
 One line command, just run this as root (if you trust me):
 ```
